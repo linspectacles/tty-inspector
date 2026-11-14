@@ -8,7 +8,6 @@ Current release: **0.0.5**
 
 Repository: <https://github.com/linspectacles/tty-inspector>
 
-
 <p align="center">
   <a href="https://github.com/brunonlinespace/brunonlinespace/blob/main/linspectacles/tty-inspector.png">
     <img
@@ -18,6 +17,7 @@ Repository: <https://github.com/linspectacles/tty-inspector>
     >
   </a>
 </p>
+
 ## What TTY Inspector is
 
 TTY Inspector answers a focused question: **what terminal infrastructure does the running Linux kernel expose, and which visible processes are associated with those terminal endpoints?**
