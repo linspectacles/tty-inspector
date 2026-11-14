@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "id": "linspectacles-tty-inspector",
+  "name": "TTY Inspector",
+  "version": "0.0.5",
+  "author": "brunonlinespace",
+  "editor": "brunonlinespace",
+  "publisher": "brunonlinespace",
+  "organization_id": "linspectacles",
+  "organization_url": "https://github.com/linspectacles/",
+  "repository": "https://github.com/linspectacles/tty-inspector",
+  "order": 20,
+  "entrypoint": "tty_inspector/applet.py",
+  "factory": "create_applet",
+  "standalone": "standalone.py",
+  "description": "Read-only Linux TTY/PTY subsystem inspector for terminal devices, pseudo-terminals, registered TTY drivers and line disciplines, and visible process-to-terminal relationships.",
+  "layer": "Shell & Terminal",
+  "platforms": [
+    "linux"
+  ],
+  "read_only": true
+}
