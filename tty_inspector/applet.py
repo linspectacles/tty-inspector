@@ -6,7 +6,7 @@
 
 APPLET_ID = "linspectacles-tty-inspector"
 APPLET_NAME = "TTY Inspector"
-APPLET_VERSION = "0.0.5"
+APPLET_VERSION = "0.0.6"
 APPLET_AUTHOR = "brunonlinespace"
 APPLET_EDITOR = "brunonlinespace"
 APPLET_PUBLISHER = "brunonlinespace"
@@ -885,6 +885,7 @@ class TTYInspectorTab(BaseInspectorTab):
         self._hidden_columns_by_view = self._load_view_hidden_columns()
 
         self.view_label = QLabel("View:")
+        self.view_label.setStyleSheet("font-weight: 600;")
         self.view_combo = QComboBox()
         self.view_combo.addItems(VIEWS)
         self.view_combo.setMinimumWidth(170)

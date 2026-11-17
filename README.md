@@ -4,7 +4,7 @@
 
 TTY Inspector is a read-only Linux TTY/PTY subsystem inspector for terminal devices, pseudo-terminals, registered TTY drivers and line disciplines, and visible process-to-terminal relationships.
 
-Current release: **0.0.5**
+Current release: **0.0.6**
 
 Repository: <https://github.com/linspectacles/tty-inspector>
 
